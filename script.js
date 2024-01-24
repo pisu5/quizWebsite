@@ -1,4 +1,4 @@
-
+let person = prompt("Please enter your name", "");
 const questions = [
   {
     question: "What is Java?",
@@ -169,7 +169,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 function startGame() {
-  let person = prompt("Please enter your name", "");
+  
   currentQuestionIndex = 0;
   score = 0;
   showQuestion();
@@ -208,7 +208,7 @@ function selectAnswer(selectedAnswer) {
 }
 
 function endGame() {
-  let result = "Congratulations:${person}You made a ${score}";
+  let result = `Congratulations: ${person} You made a ${score}`;
   
   
   const scoreDisplayy = document.getElementById("quiz-score");
