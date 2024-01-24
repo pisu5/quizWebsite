@@ -27,7 +27,7 @@ This is a quiz project that I developed to showcase my skills in web development
 
    ## Development Status
 
-🚧 **Project Under Development**
+**Project Under Development**
 
 This project is currently in the development phase, and additional features and improvements will be added in future updates. Feedback and contributions are welcome!
 
